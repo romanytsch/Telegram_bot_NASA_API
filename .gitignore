@@ -1,0 +1,4 @@
+# Environment and secret files
+.env
+*.env
+token.txt
