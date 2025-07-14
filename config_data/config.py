@@ -10,10 +10,12 @@ else:
 # Получаем токен из переменных окружения
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-RAPID_API_KEY = os.getenv("RAPID_API_KEY")
+API_KEY = os.getenv("API_KEY")
 
 DEFAULT_COMMANDS = (
     ("start", "Запустить бота"),
     ("help", "Вывести справку"),
-    ("hello_world", "Приветствие")
+    ("history", "История запросов"),
+    ("image_date", "Показать изображение по дате"),
+    ("image_day", "Картина дня")
 )
