@@ -3,7 +3,12 @@ from telebot.types import Message
 from loader import bot
 
 
-def handle_text(message: Message):
+def handle_text(message: Message) -> None:
+    """
+        Обрабатывает произвольные текстовые сообщения, не являющиеся командами.
+
+        :param message: Объект сообщения Telegram.
+    """
     user_text = message.text
 
     if user_text == 'Привет':
