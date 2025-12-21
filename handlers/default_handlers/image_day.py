@@ -54,7 +54,8 @@ def send_apod_day(chat_id: int, user: User) -> None:
                            parse_mode='HTML',
                            reply_markup=get_inline_keyboard_random())
     else:
-        bot.send_message(chat_id, f"{data['title']}\n{data['url']}")
+        url = data.get('url') or data.get('hdurl') or "Изображение недоступно"
+        bot.send_message(chat_id, f"{data['title']}\n{url}")
 
 
 
@@ -103,7 +104,8 @@ def send_apod_random(chat_id: int, user: User) -> None:
                            parse_mode='HTML',
                            reply_markup=get_inline_keyboard_random())
     else:
-        bot.send_message(chat_id, f"{data['title']}\n{data['url']}")
+        url = data.get('url') or data.get('hdurl') or "Изображение недоступно"
+        bot.send_message(chat_id, f"{data['title']}\n{url}")
 
 
 @bot.message_handler(commands=['image_day'])
