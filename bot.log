@@ -1,0 +1,2756 @@
+2025-07-14 20:16:15,660 - INFO - Запуск бота
+2025-07-14 20:16:15,932 - INFO - Команды бота установлены
+2025-07-14 20:16:15,932 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 20:16:57,472 - ERROR - Infinity polling exception: 'int' object has no attribute 'chat'
+2025-07-14 20:16:57,476 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 7, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 31, in send_apod_day
+    bot.send_photo(message.chat.id,
+                   ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'chat'
+
+2025-07-14 20:17:23,603 - ERROR - Infinity polling: polling exited
+2025-07-14 20:17:23,604 - ERROR - Break infinity polling
+2025-07-14 20:52:08,581 - INFO - Запуск бота
+2025-07-14 20:52:08,771 - INFO - Команды бота установлены
+2025-07-14 20:52:08,771 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 20:52:18,131 - ERROR - Infinity polling exception: 'int' object has no attribute 'chat'
+2025-07-14 20:52:18,136 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 31, in send_apod_day
+    bot.send_photo(message.chat.id,
+                   ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'chat'
+
+2025-07-14 20:52:39,189 - ERROR - Infinity polling: polling exited
+2025-07-14 20:52:39,189 - ERROR - Break infinity polling
+2025-07-14 20:59:35,576 - INFO - Запуск бота
+2025-07-14 20:59:35,767 - INFO - Команды бота установлены
+2025-07-14 20:59:35,767 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:02:39,192 - ERROR - Infinity polling exception: 'str' object has no attribute 'chat'
+2025-07-14 21:02:39,201 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 12, in callback_message
+    bot.register_next_step_handler("Введите дату в формате ГГГГ-ММ-ДД (например, 2023-07-14), но не ранее 16 июня 1995:",
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                   send_apod_date)
+                                   ^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 7510, in register_next_step_handler
+    self.register_next_step_handler_by_chat_id(message.chat.id, callback, *args, **kwargs)
+                                               ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'chat'
+
+2025-07-14 21:02:54,243 - ERROR - Infinity polling: polling exited
+2025-07-14 21:02:54,243 - ERROR - Break infinity polling
+2025-07-14 21:07:48,929 - INFO - Запуск бота
+2025-07-14 21:07:49,192 - INFO - Команды бота установлены
+2025-07-14 21:07:49,192 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:08:08,648 - ERROR - Infinity polling exception: 'str' object has no attribute 'chat'
+2025-07-14 21:08:08,656 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 12, in callback_message
+    bot.register_next_step_handler("Введите дату в формате ГГГГ-ММ-ДД (например, 2023-07-14), но не ранее 16 июня 1995:",
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                   send_apod_date)
+                                   ^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 7510, in register_next_step_handler
+    self.register_next_step_handler_by_chat_id(message.chat.id, callback, *args, **kwargs)
+                                               ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'chat'
+
+2025-07-14 21:08:31,816 - ERROR - Infinity polling: polling exited
+2025-07-14 21:08:31,817 - ERROR - Break infinity polling
+2025-07-14 21:10:48,485 - INFO - Запуск бота
+2025-07-14 21:10:48,789 - INFO - Команды бота установлены
+2025-07-14 21:10:48,790 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:11:40,809 - ERROR - Infinity polling: polling exited
+2025-07-14 21:11:40,809 - ERROR - Break infinity polling
+2025-07-14 21:14:18,895 - INFO - Запуск бота
+2025-07-14 21:14:19,091 - INFO - Команды бота установлены
+2025-07-14 21:14:19,091 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:14:33,928 - ERROR - Infinity polling exception: 'title'
+2025-07-14 21:14:33,941 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_data.py", line 44, in send_apod_date
+    bot.send_message(message.chat.id, f"{data['title']}\n{data['url']}")
+                                         ~~~~^^^^^^^^^
+KeyError: 'title'
+
+2025-07-14 21:15:03,498 - ERROR - Infinity polling exception: 'title'
+2025-07-14 21:15:03,502 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_data.py", line 44, in send_apod_date
+    bot.send_message(message.chat.id, f"{data['title']}\n{data['url']}")
+                                         ~~~~^^^^^^^^^
+KeyError: 'title'
+
+2025-07-14 21:15:15,534 - ERROR - Infinity polling: polling exited
+2025-07-14 21:15:15,534 - ERROR - Break infinity polling
+2025-07-14 21:18:31,193 - INFO - Запуск бота
+2025-07-14 21:18:31,359 - INFO - Команды бота установлены
+2025-07-14 21:18:31,359 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:19:44,608 - ERROR - Infinity polling: polling exited
+2025-07-14 21:19:44,608 - ERROR - Break infinity polling
+2025-07-14 21:19:53,105 - INFO - Запуск бота
+2025-07-14 21:19:53,291 - INFO - Команды бота установлены
+2025-07-14 21:19:53,291 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:20:20,692 - ERROR - Infinity polling: polling exited
+2025-07-14 21:20:20,692 - ERROR - Break infinity polling
+2025-07-14 21:25:42,206 - INFO - Запуск бота
+2025-07-14 21:25:42,348 - INFO - Команды бота установлены
+2025-07-14 21:25:42,348 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:26:29,981 - ERROR - Infinity polling: polling exited
+2025-07-14 21:26:29,982 - ERROR - Break infinity polling
+2025-07-14 21:29:20,981 - INFO - Запуск бота
+2025-07-14 21:29:21,177 - INFO - Команды бота установлены
+2025-07-14 21:29:21,178 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:29:54,424 - ERROR - Infinity polling: polling exited
+2025-07-14 21:29:54,424 - ERROR - Break infinity polling
+2025-07-14 21:32:21,815 - INFO - Запуск бота
+2025-07-14 21:32:22,011 - INFO - Команды бота установлены
+2025-07-14 21:32:22,012 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:32:57,274 - ERROR - Infinity polling: polling exited
+2025-07-14 21:32:57,274 - ERROR - Break infinity polling
+2025-07-14 21:35:33,936 - INFO - Запуск бота
+2025-07-14 21:35:34,208 - INFO - Команды бота установлены
+2025-07-14 21:35:34,208 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:36:30,996 - ERROR - Infinity polling: polling exited
+2025-07-14 21:36:30,996 - ERROR - Break infinity polling
+2025-07-14 21:56:55,377 - INFO - Запуск бота
+2025-07-14 21:56:55,552 - INFO - Команды бота установлены
+2025-07-14 21:56:55,552 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 21:57:25,451 - ERROR - Infinity polling: polling exited
+2025-07-14 21:57:25,451 - ERROR - Break infinity polling
+2025-07-14 22:02:15,127 - INFO - Запуск бота
+2025-07-14 22:02:15,339 - INFO - Команды бота установлены
+2025-07-14 22:02:15,340 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:02:50,665 - ERROR - Infinity polling: polling exited
+2025-07-14 22:02:50,665 - ERROR - Break infinity polling
+2025-07-14 22:07:04,536 - INFO - Запуск бота
+2025-07-14 22:07:04,751 - INFO - Команды бота установлены
+2025-07-14 22:07:04,751 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:07:27,142 - ERROR - Infinity polling: polling exited
+2025-07-14 22:07:27,143 - ERROR - Break infinity polling
+2025-07-14 22:11:48,947 - INFO - Запуск бота
+2025-07-14 22:11:49,256 - INFO - Команды бота установлены
+2025-07-14 22:11:49,256 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:12:19,439 - ERROR - Infinity polling: polling exited
+2025-07-14 22:12:19,440 - ERROR - Break infinity polling
+2025-07-14 22:16:42,892 - INFO - Запуск бота
+2025-07-14 22:16:43,097 - INFO - Команды бота установлены
+2025-07-14 22:16:43,097 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:16:53,664 - ERROR - Infinity polling: polling exited
+2025-07-14 22:16:53,664 - ERROR - Break infinity polling
+2025-07-14 22:19:36,149 - INFO - Запуск бота
+2025-07-14 22:19:36,391 - INFO - Команды бота установлены
+2025-07-14 22:19:36,392 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:19:50,084 - ERROR - Infinity polling: polling exited
+2025-07-14 22:19:50,084 - ERROR - Break infinity polling
+2025-07-14 22:22:51,114 - INFO - Запуск бота
+2025-07-14 22:22:51,427 - INFO - Команды бота установлены
+2025-07-14 22:22:51,427 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:23:18,543 - ERROR - Infinity polling: polling exited
+2025-07-14 22:23:18,543 - ERROR - Break infinity polling
+2025-07-14 22:27:02,221 - INFO - Запуск бота
+2025-07-14 22:27:02,461 - INFO - Команды бота установлены
+2025-07-14 22:27:02,462 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:27:12,395 - ERROR - Infinity polling: polling exited
+2025-07-14 22:27:12,396 - ERROR - Break infinity polling
+2025-07-14 22:30:18,530 - INFO - Запуск бота
+2025-07-14 22:30:18,763 - INFO - Команды бота установлены
+2025-07-14 22:30:18,763 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:30:33,434 - ERROR - Infinity polling: polling exited
+2025-07-14 22:30:33,434 - ERROR - Break infinity polling
+2025-07-14 22:34:39,285 - INFO - Запуск бота
+2025-07-14 22:34:39,444 - INFO - Команды бота установлены
+2025-07-14 22:34:39,445 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:35:02,583 - ERROR - Infinity polling: polling exited
+2025-07-14 22:35:02,584 - ERROR - Break infinity polling
+2025-07-14 22:38:07,420 - INFO - Запуск бота
+2025-07-14 22:38:07,601 - INFO - Команды бота установлены
+2025-07-14 22:38:07,601 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:38:17,801 - ERROR - Infinity polling: polling exited
+2025-07-14 22:38:17,802 - ERROR - Break infinity polling
+2025-07-14 22:41:27,590 - INFO - Запуск бота
+2025-07-14 22:41:27,793 - INFO - Команды бота установлены
+2025-07-14 22:41:27,793 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:41:35,450 - ERROR - Infinity polling: polling exited
+2025-07-14 22:41:35,450 - ERROR - Break infinity polling
+2025-07-14 22:58:28,005 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-14 22:58:28,006 - INFO - Запуск бота
+2025-07-14 22:58:28,231 - INFO - Команды бота установлены
+2025-07-14 22:58:28,232 - INFO - Обработчик сообщений зарегистрирован
+2025-07-14 22:58:57,443 - ERROR - Infinity polling: polling exited
+2025-07-14 22:58:57,443 - ERROR - Break infinity polling
+2025-07-15 22:08:31,968 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:08:31,969 - INFO - Запуск бота
+2025-07-15 22:08:32,218 - INFO - Команды бота установлены
+2025-07-15 22:08:32,218 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:08:55,476 - ERROR - Infinity polling: polling exited
+2025-07-15 22:08:55,477 - ERROR - Break infinity polling
+2025-07-15 22:09:03,144 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:09:03,144 - INFO - Запуск бота
+2025-07-15 22:09:03,535 - INFO - Команды бота установлены
+2025-07-15 22:09:03,535 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:10:00,123 - ERROR - Infinity polling: polling exited
+2025-07-15 22:10:00,123 - ERROR - Break infinity polling
+2025-07-15 22:10:02,891 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:10:02,892 - INFO - Запуск бота
+2025-07-15 22:10:03,035 - INFO - Команды бота установлены
+2025-07-15 22:10:03,035 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:12:19,449 - ERROR - Infinity polling: polling exited
+2025-07-15 22:12:19,449 - ERROR - Break infinity polling
+2025-07-15 22:12:51,421 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:12:51,421 - INFO - Запуск бота
+2025-07-15 22:12:51,610 - INFO - Команды бота установлены
+2025-07-15 22:12:51,611 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:15:45,862 - ERROR - Infinity polling: polling exited
+2025-07-15 22:15:45,863 - ERROR - Break infinity polling
+2025-07-15 22:18:52,802 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:18:52,803 - INFO - Запуск бота
+2025-07-15 22:18:52,979 - INFO - Команды бота установлены
+2025-07-15 22:18:52,979 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:18:55,623 - ERROR - Infinity polling exception: 'module' object is not callable
+2025-07-15 22:18:55,626 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\help.py", line 12, in bot_help
+    bot.send_message(message.chat.id, date_time(message))
+                                      ~~~~~~~~~^^^^^^^^^
+TypeError: 'module' object is not callable
+
+2025-07-15 22:19:07,650 - ERROR - Infinity polling: polling exited
+2025-07-15 22:19:07,650 - ERROR - Break infinity polling
+2025-07-15 22:20:48,515 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:20:48,515 - INFO - Запуск бота
+2025-07-15 22:20:48,819 - INFO - Команды бота установлены
+2025-07-15 22:20:48,820 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:20:50,805 - ERROR - Infinity polling exception: 'module' object is not callable
+2025-07-15 22:20:50,808 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\help.py", line 12, in bot_help
+    bot.send_message(message.chat.id, date_time(message))
+                                      ~~~~~~~~~^^^^^^^^^
+TypeError: 'module' object is not callable
+
+2025-07-15 22:20:56,822 - ERROR - Infinity polling: polling exited
+2025-07-15 22:20:56,822 - ERROR - Break infinity polling
+2025-07-15 22:22:00,418 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:22:00,419 - INFO - Запуск бота
+2025-07-15 22:22:00,701 - INFO - Команды бота установлены
+2025-07-15 22:22:00,701 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:22:12,685 - ERROR - Infinity polling: polling exited
+2025-07-15 22:22:12,686 - ERROR - Break infinity polling
+2025-07-15 22:23:03,257 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:23:03,258 - INFO - Запуск бота
+2025-07-15 22:23:03,453 - INFO - Команды бота установлены
+2025-07-15 22:23:03,453 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:23:17,073 - ERROR - Infinity polling: polling exited
+2025-07-15 22:23:17,073 - ERROR - Break infinity polling
+2025-07-15 22:25:11,742 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:25:11,742 - INFO - Запуск бота
+2025-07-15 22:25:11,961 - INFO - Команды бота установлены
+2025-07-15 22:25:11,961 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:25:15,655 - ERROR - Infinity polling exception: 'module' object is not callable
+2025-07-15 22:25:15,657 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\help.py", line 12, in bot_help
+    bot.send_message(message.chat.id, date_time(message))
+                                      ~~~~~~~~~^^^^^^^^^
+TypeError: 'module' object is not callable
+
+2025-07-15 22:26:13,887 - ERROR - Infinity polling: polling exited
+2025-07-15 22:26:13,888 - ERROR - Break infinity polling
+2025-07-15 22:26:23,913 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:26:23,913 - INFO - Запуск бота
+2025-07-15 22:26:24,124 - INFO - Команды бота установлены
+2025-07-15 22:26:24,124 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:26:38,816 - ERROR - Infinity polling: polling exited
+2025-07-15 22:26:38,816 - ERROR - Break infinity polling
+2025-07-15 22:53:25,315 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 22:53:25,315 - INFO - Запуск бота
+2025-07-15 22:53:25,580 - INFO - Команды бота установлены
+2025-07-15 22:53:25,580 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 22:53:57,529 - ERROR - Infinity polling exception: 'str' object has no attribute 'content'
+2025-07-15 22:53:57,534 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 15, in send_apod_day
+    image_byte = image.content
+                 ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'content'
+
+2025-07-15 22:54:23,829 - ERROR - Infinity polling: polling exited
+2025-07-15 22:54:23,830 - ERROR - Break infinity polling
+2025-07-15 23:04:40,710 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:04:40,711 - INFO - Запуск бота
+2025-07-15 23:04:41,030 - INFO - Команды бота установлены
+2025-07-15 23:04:41,030 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:04:58,726 - ERROR - Infinity polling exception: 'int' object has no attribute 'date'
+2025-07-15 23:04:58,730 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 29, in send_apod_day
+    add_database(chat_id, date, title, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 5, in add_database
+    time = date_time(message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\utils\date_time.py", line 7, in date_time
+    timestamp = message.date  # целое число seconds с 1970-01-01 UTC
+                ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'date'
+
+2025-07-15 23:05:06,971 - ERROR - Infinity polling exception: 'int' object has no attribute 'date'
+2025-07-15 23:05:06,975 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 29, in send_apod_day
+    add_database(chat_id, date, title, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 5, in add_database
+    time = date_time(message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\utils\date_time.py", line 7, in date_time
+    timestamp = message.date  # целое число seconds с 1970-01-01 UTC
+                ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'date'
+
+2025-07-15 23:05:30,148 - ERROR - Infinity polling: polling exited
+2025-07-15 23:05:30,149 - ERROR - Break infinity polling
+2025-07-15 23:17:17,941 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:17:17,942 - INFO - Запуск бота
+2025-07-15 23:17:18,101 - INFO - Команды бота установлены
+2025-07-15 23:17:18,101 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:17:25,528 - ERROR - Infinity polling exception: 'int' object has no attribute 'date'
+2025-07-15 23:17:25,532 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 29, in send_apod_day
+    add_database(chat_id, date, title, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 7, in add_database
+    time = date_time(chat_id)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\utils\date_time.py", line 7, in date_time
+    timestamp = message.date  # целое число seconds с 1970-01-01 UTC
+                ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'date'
+
+2025-07-15 23:17:34,535 - ERROR - Infinity polling: polling exited
+2025-07-15 23:17:34,535 - ERROR - Break infinity polling
+2025-07-15 23:20:18,038 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:20:18,038 - INFO - Запуск бота
+2025-07-15 23:20:18,190 - INFO - Команды бота установлены
+2025-07-15 23:20:18,190 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:20:25,105 - ERROR - Infinity polling exception: name 'message' is not defined
+2025-07-15 23:20:25,109 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 29, in send_apod_day
+    add_database(message, date, title, image_bytes)
+                 ^^^^^^^
+NameError: name 'message' is not defined. Did you mean: 'Message'?
+
+2025-07-15 23:20:37,133 - ERROR - Infinity polling: polling exited
+2025-07-15 23:20:37,134 - ERROR - Break infinity polling
+2025-07-15 23:25:47,746 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:25:47,747 - INFO - Запуск бота
+2025-07-15 23:25:48,009 - INFO - Команды бота установлены
+2025-07-15 23:25:48,009 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:25:54,899 - ERROR - Infinity polling exception: name 'message' is not defined
+2025-07-15 23:25:54,907 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 29, in send_apod_day
+    add_database(message, date, title, image_bytes)
+                 ^^^^^^^
+NameError: name 'message' is not defined. Did you mean: 'Message'?
+
+2025-07-15 23:26:06,930 - ERROR - Infinity polling: polling exited
+2025-07-15 23:26:06,930 - ERROR - Break infinity polling
+2025-07-15 23:40:43,203 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:40:43,204 - INFO - Запуск бота
+2025-07-15 23:40:43,380 - INFO - Команды бота установлены
+2025-07-15 23:40:43,381 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:40:46,253 - ERROR - Infinity polling exception: 'int' object has no attribute 'chat'
+2025-07-15 23:40:46,258 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 13, in send_apod_day
+    chat_id = message.chat.id
+              ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'chat'
+
+2025-07-15 23:41:04,304 - ERROR - Infinity polling: polling exited
+2025-07-15 23:41:04,304 - ERROR - Break infinity polling
+2025-07-15 23:45:37,579 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:45:37,580 - INFO - Запуск бота
+2025-07-15 23:45:37,746 - INFO - Команды бота установлены
+2025-07-15 23:45:37,746 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:45:44,635 - ERROR - Infinity polling exception: table requests has no column named date_image
+2025-07-15 23:45:44,638 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 30, in send_apod_day
+    add_database(time_now, date, title, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 8, in add_database
+    cur.execute('''INSERT INTO requests (time, date_image, title, image)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                VALUES (?, ?, ?, ?)''', (time, date, title, sqlite3.Binary(image_bytes)))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table requests has no column named date_image
+
+2025-07-15 23:46:10,801 - ERROR - Infinity polling: polling exited
+2025-07-15 23:46:10,801 - ERROR - Break infinity polling
+2025-07-15 23:46:52,745 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:46:52,746 - INFO - Запуск бота
+2025-07-15 23:46:52,938 - INFO - Команды бота установлены
+2025-07-15 23:46:52,938 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:48:22,570 - ERROR - Infinity polling: polling exited
+2025-07-15 23:48:22,570 - ERROR - Break infinity polling
+2025-07-15 23:50:57,640 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:50:57,641 - INFO - Запуск бота
+2025-07-15 23:50:57,817 - INFO - Команды бота установлены
+2025-07-15 23:50:57,817 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:51:28,038 - ERROR - Infinity polling exception: name 'requests' is not defined
+2025-07-15 23:51:28,048 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_data.py", line 29, in send_apod_date
+    response = requests.get(image_url)
+               ^^^^^^^^
+NameError: name 'requests' is not defined
+
+2025-07-15 23:52:54,371 - ERROR - Infinity polling: polling exited
+2025-07-15 23:52:54,371 - ERROR - Break infinity polling
+2025-07-15 23:53:44,178 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:53:44,178 - INFO - Запуск бота
+2025-07-15 23:53:44,306 - INFO - Команды бота установлены
+2025-07-15 23:53:44,306 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:54:32,429 - ERROR - Infinity polling exception: The read operation timed out
+2025-07-15 23:54:32,437 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 10, in callback_message
+    send_apod_random(call.message.chat.id)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 68, in send_apod_random
+    explanation_translated = translate_text_google(explanation)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\utils\translate.py", line 5, in translate_text_google
+    result = translator.translate(text, dest=dest)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\googletrans\client.py", line 194, in translate
+    data, response = self._translate(text, dest, src)
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\googletrans\client.py", line 120, in _translate
+    r = self.client.post(url, params=params, data=data)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 824, in post
+    return self.request(
+           ~~~~~~~~~~~~^
+        "POST",
+        ^^^^^^^
+    ...<9 lines>...
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 600, in request
+    return self.send(
+           ~~~~~~~~~^
+        request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 620, in send
+    response = self.send_handling_redirects(
+        request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 647, in send_handling_redirects
+    response = self.send_handling_auth(
+        request, auth=auth, timeout=timeout, history=history
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 684, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 714, in send_single_request
+    ) = transport.request(
+        ~~~~~~~~~~~~~~~~~^
+        request.method.encode(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        timeout=timeout.as_dict(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 152, in request
+    response = connection.request(
+        method, url, headers=headers, stream=stream, timeout=timeout
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in request
+    return self.connection.request(method, url, headers, stream, timeout)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 118, in request
+    return h2_stream.request(method, url, headers, stream, timeout)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 292, in request
+    status_code, headers = self.receive_response(timeout)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 344, in receive_response
+    event = self.connection.wait_for_event(self.stream_id, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 197, in wait_for_event
+    self.receive_events(timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 204, in receive_events
+    data = self.socket.read(self.READ_NUM_BYTES, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_backends\sync.py", line 60, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc) from None
+httpcore._exceptions.ReadTimeout: The read operation timed out
+
+2025-07-15 23:56:48,741 - ERROR - Infinity polling: polling exited
+2025-07-15 23:56:48,741 - ERROR - Break infinity polling
+2025-07-15 23:58:30,071 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-15 23:58:30,071 - INFO - Запуск бота
+2025-07-15 23:58:30,234 - INFO - Команды бота установлены
+2025-07-15 23:58:30,235 - INFO - Обработчик сообщений зарегистрирован
+2025-07-15 23:59:37,689 - ERROR - Infinity polling: polling exited
+2025-07-15 23:59:37,689 - ERROR - Break infinity polling
+2025-07-16 00:00:16,676 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:00:16,676 - INFO - Запуск бота
+2025-07-16 00:00:16,880 - INFO - Команды бота установлены
+2025-07-16 00:00:16,880 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:00:59,347 - ERROR - Infinity polling: polling exited
+2025-07-16 00:00:59,347 - ERROR - Break infinity polling
+2025-07-16 00:07:29,501 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:07:29,501 - INFO - Запуск бота
+2025-07-16 00:07:29,648 - INFO - Команды бота установлены
+2025-07-16 00:07:29,649 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:07:32,695 - ERROR - Infinity polling: polling exited
+2025-07-16 00:07:32,695 - ERROR - Break infinity polling
+2025-07-16 00:07:45,953 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:07:45,953 - INFO - Запуск бота
+2025-07-16 00:07:46,085 - INFO - Команды бота установлены
+2025-07-16 00:07:46,085 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:07:53,118 - ERROR - Infinity polling exception: send_apod_day() missing 1 required positional argument: 'user'
+2025-07-16 00:07:53,121 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: send_apod_day() missing 1 required positional argument: 'user'
+
+2025-07-16 00:08:54,374 - ERROR - Infinity polling: polling exited
+2025-07-16 00:08:54,374 - ERROR - Break infinity polling
+2025-07-16 00:10:02,941 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:10:02,941 - INFO - Запуск бота
+2025-07-16 00:10:03,123 - INFO - Команды бота установлены
+2025-07-16 00:10:03,123 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:10:05,789 - ERROR - Infinity polling exception: send_apod_day() missing 1 required positional argument: 'user'
+2025-07-16 00:10:05,792 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: send_apod_day() missing 1 required positional argument: 'user'
+
+2025-07-16 00:12:32,249 - ERROR - Infinity polling: polling exited
+2025-07-16 00:12:32,250 - ERROR - Break infinity polling
+2025-07-16 00:14:08,597 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:14:08,598 - INFO - Запуск бота
+2025-07-16 00:14:08,770 - INFO - Команды бота установлены
+2025-07-16 00:14:08,770 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:14:09,786 - ERROR - Infinity polling exception: 'Message' object has no attribute 'user'
+2025-07-16 00:14:09,790 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id, call.message.user)
+                                        ^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'user'
+
+2025-07-16 00:15:59,161 - ERROR - Infinity polling: polling exited
+2025-07-16 00:15:59,162 - ERROR - Break infinity polling
+2025-07-16 00:16:01,980 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:16:01,980 - INFO - Запуск бота
+2025-07-16 00:16:02,218 - INFO - Команды бота установлены
+2025-07-16 00:16:02,218 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:16:11,338 - ERROR - Infinity polling exception: 4 values for 5 columns
+2025-07-16 00:16:11,343 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 30, in send_apod_day
+    add_database(user.full_name, time_now, date, title_translated, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 8, in add_database
+    cur.execute('''INSERT INTO requests (user_name, time, date_image, title, image)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                VALUES (?, ?, ?, ?)''', (user_name, time, date, title, sqlite3.Binary(image_bytes)))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: 4 values for 5 columns
+
+2025-07-16 00:16:32,385 - ERROR - Infinity polling: polling exited
+2025-07-16 00:16:32,385 - ERROR - Break infinity polling
+2025-07-16 00:17:09,504 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:17:09,504 - INFO - Запуск бота
+2025-07-16 00:17:09,716 - INFO - Команды бота установлены
+2025-07-16 00:17:09,716 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:17:16,618 - ERROR - Infinity polling exception: 4 values for 5 columns
+2025-07-16 00:17:16,621 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 30, in send_apod_day
+    add_database(user.full_name, time_now, date, title_translated, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\database\queries.py", line 8, in add_database
+    cur.execute('''INSERT INTO requests (user_name, time, date_image, title, image)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                VALUES (?, ?, ?, ?)''', (user_name, time, date, title, sqlite3.Binary(image_bytes)))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: 4 values for 5 columns
+
+2025-07-16 00:17:57,833 - ERROR - Infinity polling: polling exited
+2025-07-16 00:17:57,834 - ERROR - Break infinity polling
+2025-07-16 00:18:00,420 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:18:00,421 - INFO - Запуск бота
+2025-07-16 00:18:00,769 - INFO - Команды бота установлены
+2025-07-16 00:18:00,769 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:20:10,053 - ERROR - Infinity polling: polling exited
+2025-07-16 00:20:10,053 - ERROR - Break infinity polling
+2025-07-16 00:39:24,526 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 00:39:24,526 - INFO - Запуск бота
+2025-07-16 00:39:24,788 - INFO - Команды бота установлены
+2025-07-16 00:39:24,788 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 00:39:51,394 - ERROR - Infinity polling: polling exited
+2025-07-16 00:39:51,394 - ERROR - Break infinity polling
+2025-07-16 20:15:14,643 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 20:15:14,643 - INFO - Запуск бота
+2025-07-16 20:15:14,915 - INFO - Команды бота установлены
+2025-07-16 20:15:14,915 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 20:15:57,424 - ERROR - Infinity polling exception: The read operation timed out
+2025-07-16 20:15:57,430 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 10, in callback_message
+    send_apod_random(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 80, in send_apod_random
+    explanation_translated = translate_text_google(explanation)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\utils\translate.py", line 12, in translate_text_google
+    result = translator.translate(text, dest=dest)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\googletrans\client.py", line 194, in translate
+    data, response = self._translate(text, dest, src)
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\googletrans\client.py", line 120, in _translate
+    r = self.client.post(url, params=params, data=data)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 824, in post
+    return self.request(
+           ~~~~~~~~~~~~^
+        "POST",
+        ^^^^^^^
+    ...<9 lines>...
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 600, in request
+    return self.send(
+           ~~~~~~~~~^
+        request, auth=auth, allow_redirects=allow_redirects, timeout=timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 620, in send
+    response = self.send_handling_redirects(
+        request, auth=auth, timeout=timeout, allow_redirects=allow_redirects,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 647, in send_handling_redirects
+    response = self.send_handling_auth(
+        request, auth=auth, timeout=timeout, history=history
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 684, in send_handling_auth
+    response = self.send_single_request(request, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpx\_client.py", line 714, in send_single_request
+    ) = transport.request(
+        ~~~~~~~~~~~~~~~~~^
+        request.method.encode(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        timeout=timeout.as_dict(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 152, in request
+    response = connection.request(
+        method, url, headers=headers, stream=stream, timeout=timeout
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in request
+    return self.connection.request(method, url, headers, stream, timeout)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 118, in request
+    return h2_stream.request(method, url, headers, stream, timeout)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 292, in request
+    status_code, headers = self.receive_response(timeout)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 344, in receive_response
+    event = self.connection.wait_for_event(self.stream_id, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 197, in wait_for_event
+    self.receive_events(timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_sync\http2.py", line 204, in receive_events
+    data = self.socket.read(self.READ_NUM_BYTES, timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_backends\sync.py", line 60, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\httpcore\_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc) from None
+httpcore._exceptions.ReadTimeout: The read operation timed out
+
+2025-07-16 20:16:59,711 - ERROR - Infinity polling exception: add_database() missing 1 required positional argument: 'image_bytes'
+2025-07-16 20:16:59,714 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_data.py", line 50, in send_apod_date
+    add_database(time_now, date, title_translated, image_bytes)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: add_database() missing 1 required positional argument: 'image_bytes'
+
+2025-07-16 20:18:15,080 - ERROR - Infinity polling: polling exited
+2025-07-16 20:18:15,080 - ERROR - Break infinity polling
+2025-07-16 20:21:28,052 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 20:21:28,052 - INFO - Запуск бота
+2025-07-16 20:21:28,327 - INFO - Команды бота установлены
+2025-07-16 20:21:28,328 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 20:23:10,200 - ERROR - Infinity polling: polling exited
+2025-07-16 20:23:10,200 - ERROR - Break infinity polling
+2025-07-16 20:29:56,362 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 20:29:56,362 - INFO - Запуск бота
+2025-07-16 20:29:56,558 - INFO - Команды бота установлены
+2025-07-16 20:29:56,558 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 20:50:55,643 - ERROR - Infinity polling exception: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2025-07-16 20:50:55,660 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+2025-07-16 20:51:30,770 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E495AE90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+2025-07-16 20:51:30,777 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+OSError: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000296E495AE90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E495AE90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E495AE90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+
+2025-07-16 20:51:53,789 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A490>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+2025-07-16 20:51:53,795 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+    ...<2 lines>...
+    ) from e
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x00000296E495A490>, 'Connection to api.telegram.org timed out. (connect timeout=20)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A490>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A490>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+
+2025-07-16 20:52:16,816 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A0D0>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+2025-07-16 20:52:16,824 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+    ...<2 lines>...
+    ) from e
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x00000296E495A0D0>, 'Connection to api.telegram.org timed out. (connect timeout=20)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A0D0>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000296E495A0D0>, 'Connection to api.telegram.org timed out. (connect timeout=20)'))
+
+2025-07-16 20:52:31,086 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495A850>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2025-07-16 20:52:31,093 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000296E495A850>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495A850>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495A850>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+2025-07-16 20:52:45,289 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958050>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2025-07-16 20:52:45,296 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000296E4958050>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958050>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958050>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+2025-07-16 20:52:59,495 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495B890>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2025-07-16 20:52:59,505 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000296E495B890>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495B890>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E495B890>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+2025-07-16 20:53:13,700 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958410>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2025-07-16 20:53:13,707 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000296E4958410>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958410>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000296E4958410>: Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+
+2025-07-16 20:53:47,920 - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E4958B90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+2025-07-16 20:53:47,927 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+OSError: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000296E4958B90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E4958B90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+                               allowed_updates=allowed_updates,
+                               timeout=timeout, long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+        self.token, offset=offset, limit=limit, timeout=timeout, allowed_updates=allowed_updates,
+        long_polling_timeout=long_polling_timeout)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7491691196:***********************************/getUpdates?offset=552164959&timeout=20 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000296E4958B90>: Failed to establish a new connection: [WinError 10051] Сделана попытка выполнить операцию на сокете при отключенной сети'))
+
+2025-07-16 21:10:40,989 - ERROR - Infinity polling: polling exited
+2025-07-16 21:10:40,989 - ERROR - Break infinity polling
+2025-07-16 21:10:44,271 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-16 21:10:44,272 - INFO - Запуск бота
+2025-07-16 21:10:44,422 - INFO - Команды бота установлены
+2025-07-16 21:10:44,422 - INFO - Обработчик сообщений зарегистрирован
+2025-07-16 21:32:29,881 - ERROR - Infinity polling exception: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2025-07-16 21:32:29,893 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 12, in callback_message
+    bot.answer_callback_query(call.id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 6081, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.token, callback_query_id, text=text, show_alert=show_alert, url=url, cache_time=cache_time)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 1871, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+2025-07-16 21:32:51,979 - ERROR - Infinity polling exception: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2025-07-16 21:32:51,991 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 10, in callback_message
+    send_apod_random(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 92, in send_apod_random
+    bot.send_photo(chat_id,
+    ~~~~~~~~~~~~~~^^^^^^^^^
+                   data["url"],
+                   ^^^^^^^^^^^^
+                   caption=f"<b>{date}</b>\n\n<b>{title_translated}</b>",
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   parse_mode='HTML')
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 2309, in send_photo
+    apihelper.send_photo(
+    ~~~~~~~~~~~~~~~~~~~~^
+        self.token, chat_id, photo, caption=caption, reply_markup=reply_markup,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        business_connection_id=business_connection_id, message_effect_id=message_effect_id,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        show_caption_above_media=show_caption_above_media, allow_paid_broadcast=allow_paid_broadcast))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 551, in send_photo
+    return _make_request(token, method_url, params=payload, files=files, method='post')
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+        method, request_url, params=params, files=files,
+        timeout=(connect_timeout, read_timeout), proxies=proxy)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+2025-07-16 21:46:58,652 - ERROR - Infinity polling: polling exited
+2025-07-16 21:46:58,653 - ERROR - Break infinity polling
+2025-07-20 20:22:49,412 - INFO - Таблица requests успешно создана или уже существует.
+2025-07-20 20:22:49,413 - INFO - Запуск бота
+2025-07-20 20:22:49,820 - INFO - Команды бота установлены
+2025-07-20 20:22:49,820 - INFO - Обработчик сообщений зарегистрирован
+2025-07-20 20:27:32,306 - ERROR - Infinity polling: polling exited
+2025-07-20 20:27:32,306 - ERROR - Break infinity polling
+2025-12-21 22:02:09,946 - INFO - Таблица requests успешно создана или уже существует.
+2025-12-21 22:02:09,947 - INFO - Запуск бота
+2025-12-21 22:02:10,186 - INFO - Команды бота установлены
+2025-12-21 22:02:10,186 - INFO - Обработчик сообщений зарегистрирован
+2025-12-21 22:02:17,214 - ERROR - Infinity polling exception: 'url'
+2025-12-21 22:02:17,219 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 57, in send_apod_day
+    bot.send_message(chat_id, f"{data['title']}\n{data['url']}")
+                                                  ~~~~^^^^^^^
+KeyError: 'url'
+
+2025-12-21 22:02:53,533 - ERROR - Infinity polling exception: 'url'
+2025-12-21 22:02:53,536 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_data.py", line 70, in send_apod_date
+    bot.send_message(message.chat.id, f"{data['title']}\n{data['url']}")
+                                                          ~~~~^^^^^^^
+KeyError: 'url'
+
+2025-12-21 22:03:08,572 - ERROR - Infinity polling: polling exited
+2025-12-21 22:03:08,572 - ERROR - Break infinity polling
+2025-12-21 22:04:23,031 - INFO - Таблица requests успешно создана или уже существует.
+2025-12-21 22:04:23,032 - INFO - Запуск бота
+2025-12-21 22:04:23,237 - INFO - Команды бота установлены
+2025-12-21 22:04:23,238 - INFO - Обработчик сообщений зарегистрирован
+2025-12-21 22:04:29,320 - ERROR - Infinity polling exception: 'url'
+2025-12-21 22:04:29,325 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1110, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 logger_level=logger_level, allowed_updates=allowed_updates, restart_on_change=False,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            logger_level=logger_level, allowed_updates=allowed_updates)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\Training\venv\Lib\site-packages\telebot\__init__.py", line 9759, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\callback.py", line 8, in callback_message
+    send_apod_day(call.message.chat.id, call.from_user)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ProBook\PycharmProjects\python_basic_diploma\handlers\default_handlers\image_day.py", line 57, in send_apod_day
+    bot.send_message(chat_id, f"{data['title']}\n{data['url']}")
+                                                  ~~~~^^^^^^^
+KeyError: 'url'
+
+2025-12-21 22:05:30,520 - ERROR - Infinity polling: polling exited
+2025-12-21 22:05:30,521 - ERROR - Break infinity polling
+2025-12-21 22:09:18,104 - INFO - Таблица requests успешно создана или уже существует.
+2025-12-21 22:09:18,104 - INFO - Запуск бота
+2025-12-21 22:09:18,354 - INFO - Команды бота установлены
+2025-12-21 22:09:18,354 - INFO - Обработчик сообщений зарегистрирован
+2025-12-21 22:11:41,015 - ERROR - Infinity polling: polling exited
+2025-12-21 22:11:41,015 - ERROR - Break infinity polling
